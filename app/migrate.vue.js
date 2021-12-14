@@ -1,9 +1,11 @@
 const Migrate = Vue.component('Migrate', {
-    props:{
-        heading:{
-            type: String,
-            default: 'Hello World!'
-        }
+    computed:{
+        ...Vuex.mapGetters(['title', 'description'])
     },
-    template:``
+    template:`<section>
+        <HeaderSection
+            :title="title"
+            :description="description"
+        />
+    </section>`
 });
