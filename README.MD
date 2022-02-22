@@ -1,4 +1,5 @@
-## AngularJS with Vue for migration project
+## Migrate AngularJS app with Vue/Vuex
+
 this is an example to migrate your legacy project from angularjs to Vue including Vuex and i18n features,
 
 NOTE: this project is not using javascript modules
